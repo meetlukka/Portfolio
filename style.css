@@ -1,0 +1,24 @@
+/* <link rel="preconnect" href="https://fonts.gstatic.com"> */
+@import("https://fonts.googleapis.com/css2?family=Exo+2&family=Inconsolata:wght@600&display=swap");
+
+:root{
+    --primary: #7510f7;
+}
+
+li > a{
+    text-decoration: none;
+    color: var(--primary );
+    padding-left:30px ;
+    font-size: 130%;
+    font-family: 'Exo 2', sans-serif;
+}
+.hero-body{
+    padding: 50px 30px;
+}
+.hero-title{
+    font-size: 50px;
+    font-family: 'Inconsolata', monospace;
+}
+.column{
+    text-align: center;
+}
