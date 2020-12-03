@@ -23,6 +23,9 @@ html, body{
     color: #7510f7;
 
 }
+.my-link{
+    text-decoration: none;
+}
 .hero-intro{
     padding-top: 2%;
 }
