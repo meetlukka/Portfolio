@@ -144,6 +144,7 @@ html, body{
         color:white;
         padding: 10px 0;
         background-color: #7510f7;
+        
       }
       .fa-linkedin {
         padding: 20px;
@@ -167,3 +168,38 @@ html, body{
         background: white;
         color: red;
       }
+      .navbar{
+            
+        height: 120px;
+        background-color: white;
+        z-index: 1;
+        width: 100%;
+        position: relative;
+    }
+   .nav-container{
+       width: 100%;
+      height: inherit;
+   }
+   .nav-logo{
+       
+       float: left;
+   }
+   .nav-logo img{
+       width: 30%;
+       margin-left: 55%;
+       
+   }
+   .navbar-menu{
+       margin-left: 50%;
+       height: inherit;
+   }
+
+   .nav-menu{
+    display: inline-flex;
+    list-style: none;
+    margin-top: 5%;
+    margin-left: 2%;
+   }
+   .nav-menu-list{
+       padding-left: 20px;
+   }
