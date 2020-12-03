@@ -1,5 +1,5 @@
 /* <link rel="preconnect" href="https://fonts.gstatic.com"> */
-@import("https://fonts.googleapis.com/css2?family=Exo+2&family=Inconsolata:wght@600&display=swap");
+@import("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@100&display=swap");
 
 :root{
     --primary: #7510f7;
@@ -12,8 +12,12 @@ li > a{
     font-size: 130%;
     font-family: 'Exo 2', sans-serif;
 }
+html, body{
+    padding: 0;
+    margin: 0;
+}
 .hero-intro{
-    padding-top: 3%;
+    padding-top: 2%;
 }
 .hero-body{
     padding: 50px 30px;
@@ -27,8 +31,8 @@ li > a{
 }
 .hero-description{
     
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+
 }
 .portrait-image{
     width: 20%;
@@ -36,5 +40,21 @@ li > a{
     border-radius: 100% ;
 }
 .svg-image-1{
-    width: 20%;
+    width: 40%;
+}
+.about-me-container{
+    width:100;
+}
+.about-me{
+    background-color: var(--primary);
+    margin-top: -5.29%;
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+.about-me-title{
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    padding-top: 5%;
 }
