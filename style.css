@@ -26,6 +26,7 @@ html, body{
 .my-link{
     text-decoration: none;
 } */
+
 .hero-intro{
     padding-top: 2%;
 }
@@ -259,6 +260,15 @@ span{
     font-weight: bold;
     
 }
+@media (max-width: 600px) {
+    .nav-menu-list{
+        display: inline;
+        padding: 0rem 0rem;
+        margin-right:0rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+ }
 li a{
     text-decoration: none;
     color: var(--primary);
