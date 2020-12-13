@@ -38,12 +38,23 @@ html, body{
 }
 .column{
     text-align: center;
+    
 }
 .hero-description{
-    
+    font-weight: light;
     font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.projects-column{
     
-
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+    
+}
+.project-list{
+    text-align: left;
 }
 .portrait-image{
     width: 20%;
@@ -80,6 +91,7 @@ html, body{
     color:whitesmoke;
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 3%;
+    
 }
 .about-me-tect-list{
     
@@ -111,11 +123,13 @@ html, body{
     color: var(--primary);
     font-weight: bold;
     }
-    .project-1 {
+    .project-list {
         font-family: 'Montserrat', sans-serif;
+        
     }
-    .project-2{
-        font-family: 'Montserrat', sans-serif;
+    
+    .blog-title{
+        text-align: center;
     }
     .link-button:hover {
         color: white;
@@ -238,3 +252,10 @@ li a{
     text-decoration: none;
     color: var(--primary);
 }
+.project-description{
+    font-weight: bolder;
+}
+.project-heading{
+    font-weight: 800;
+}
+
